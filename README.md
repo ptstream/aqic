@@ -1,4 +1,4 @@
-** Aqic ** is a tool allowing the representation of air quality in France.
+**Aqic** is a tool allowing the representation of air quality in France.
 Although Aqic is available in English and French, the data comes from “open data” sites which are only French.
 It is for this reason that the rest of this file is French. 
 
