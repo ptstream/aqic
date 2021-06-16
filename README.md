@@ -12,19 +12,21 @@ Toutes les informations essentielles sont accessibles à https://atmo-france.org
 ![](readme-images/aqic.png)
 
 Aqic met à disposition plusieurs grandes fonctions:
+- Télécharger l'indice qualité de l'air pour une région.
 - Afficher sur la carte la commune avec une couleur représentant l'indice qualité de l'air pour une région et pour une date donnée.
 - Choisir une date.
 - Choisir quel indice représenter (global ou sous-indice).
-- Faite varier la date en continue.
-- Consulter la qualité de l'air pour une commune.
-- Exporter la représentation sous forme d'image pour créer des rapports ou une vidéo.
+- Faite varier la date.
+- Consulter les détails de la qualité de l'air d'une commune.
+- Visualiser le profil hebdomadaire.
+- Exporter la représentation sous forme d'images.
 
 **Notes de développement**
 1. Aqic est codé en C++ et utilise le framework Qt5.15.2 disponible à https://www.qt.io/.
 2. Compilateurs
   - Windows. Mingw81_64 et Msvc2015_64. Les installeurs utilisent Mingw81_64.
   - Linux. GCC 9.3.0.
-  - MacOS. La chaîne d'outils LLMV 10.0.1 with Clang 1001-0-46-4.
+  - MacOS. La chaîne d'outils LLMV 10.0.1 avec Clang 1001-0-46-4.
 3. Les bibliothèques
    Trois bibliothèques statiques sont définies. Aqic n'utilise pas toutes les fonctions définies dans ces bibliothèques. Certaines sont réservées
    pour un usage future.
@@ -36,7 +38,7 @@ Aqic met à disposition plusieurs grandes fonctions:
 **Installeurs**
 Pour ne pas avoir à reconstruire Aqic à partir des sources, les binaires permettants l'installation sous Windows 10, 
 Linux base Debain, Linux base Redhat, MacOS sont disponibles à https://drive.google.com/drive/folders/1RIwopzqaENIYevMgqaycLz1McplQV9ox?usp=sharing.
-Ce dossier contient également la documentation ainsi que le journal des évolutions.
+Ce dossier contient également la documentation ainsi que le journal des évolutions (aqic_fr.pdf, changelog.txt).
 Bien entendu, ces binaires sont issus de la version stable et peuvent ne pas correspondre à la branche en cours de développement.
 
 **Contact**
