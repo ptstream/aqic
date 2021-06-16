@@ -1,0 +1,8 @@
+sudo chmod -R +rwxrxrx /opt/aqic
+if [ -f /opt/aqic/aqic.desktop ]
+then
+echo "--------------> Creating application entry (aqic.desktop)"
+cp /opt/aqic/aqic.desktop /usr/share/applications;
+fi
+exit 0
+

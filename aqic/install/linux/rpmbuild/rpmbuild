@@ -1,0 +1,1 @@
+rpmbuild -ba --nodeps --noclean --nodebuginfo SPECS/aqic.spec

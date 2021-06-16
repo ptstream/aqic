@@ -1,0 +1,2 @@
+export LD_LIBRARY_PATH=/opt/aqic/lib:$LD_LIBRARY_PATH
+/opt/aqic/aqic $1

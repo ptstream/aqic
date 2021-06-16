@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>map.qml</file>
+        <file>polygon.qml</file>
+        <file>icons/mainmenu.png</file>
+        <file>icons/today.png</file>
+        <file>icons/todaym.png</file>
+        <file>icons/todayp.png</file>
+        <file>icons/01.png</file>
+        <file>icons/02.png</file>
+        <file>icons/03.png</file>
+        <file>icons/04.png</file>
+        <file>icons/11.png</file>
+        <file>icons/24.png</file>
+        <file>icons/27.png</file>
+        <file>icons/28.png</file>
+        <file>icons/32.png</file>
+        <file>icons/44.png</file>
+        <file>icons/52.png</file>
+        <file>icons/53.png</file>
+        <file>icons/75.png</file>
+        <file>icons/76.png</file>
+        <file>icons/84.png</file>
+        <file>icons/93.png</file>
+        <file>icons/94.png</file>
+        <file>icons/99.png</file>
+        <file>icons/06.png</file>
+        <file>icons/about.png</file>
+        <file>icons/factoryreset.png</file>
+        <file>icons/preferences.png</file>
+        <file>icons/restoredefaultdimensions.png</file>
+        <file>icons/close.png</file>
+        <file>icons/legend.png</file>
+        <file>icons/fitinview.png</file>
+        <file>icons/atmo_france.png</file>
+        <file>icons/qt.png</file>
+        <file>icons/aqic_64.png</file>
+        <file>icons/aqic_128.png</file>
+        <file>icons/aqic.ico</file>
+        <file>icons/clearcache.png</file>
+        <file>icons/aqic128.icns</file>
+        <file>icons/downloadstatistics.png</file>
+        <file>icons/exportmap.png</file>
+        <file>icons/exportmovie.png</file>
+        <file>circle.qml</file>
+    </qresource>
+</RCC>

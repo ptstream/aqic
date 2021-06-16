@@ -1,0 +1,11 @@
+Source: aqic
+Package: aqic
+Version: 0.0.0
+Section: base
+Priority: optional
+Installed-Size: 400000
+Architecture: all
+Maintainer: PTaravel
+Homepage: NA
+Description: Air quality index.
+ An air quality index browser.

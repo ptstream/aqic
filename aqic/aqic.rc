@@ -1,0 +1,27 @@
+   
+#include "appversion.hpp"
+
+1 VERSIONINFO
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "CompanyName", "NA"
+      VALUE "FileDescription", "Air quality index browser"
+      VALUE "FileVersion", APPVERSION
+      VALUE "ProductVersion", APPVERSION
+      VALUE "InternalName", "aqic"
+      VALUE "LegalCopyright", "GPL Version 3"
+      VALUE "OriginalFilename", "aqic.exe"
+      VALUE "ProductName", "aqic"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END
+
+10 ICON DISCARDABLE "icons\\aqic.ico"

@@ -1,0 +1,226 @@
+[{
+  "pollutant" : "PM2.5",
+  "metric" : "Daily average",
+  "indexes" : [
+  {
+    "wording" : "Unavailable",
+    "interval" : [0,0],
+    "text" : "black",
+    "color" : "#DDDDDD"
+  },{
+    "wording" : "Good",
+    "interval" : [0,10],
+    "text" : "black",
+    "color" : "#50F0E6"
+  },{
+    "wording" : "Medium",
+    "interval" : [11,20],
+    "text" : "black",
+    "color" : "#50CCAA"
+  },{
+    "wording" : "Degraded",
+    "interval" : [21,25],
+    "text" : "black",
+    "color" : "#F0E641"
+  },{
+    "wording" : "Bad",
+    "interval" : [26,50],
+    "text" : "black",
+    "color" : "#FF5050"
+  },{
+    "wording" : "Very bad",
+    "interval" : [51,75],
+    "text" : "white",
+    "color" : "#960032"
+  },{
+    "wording" : "Extremely bad",
+    "interval" : [9999,75],
+    "text" : "white",
+    "color" : "#872181"
+},{
+    "wording" : "Event",
+    "interval" : [0,0],
+    "text" : "white,
+    "color" : "#888888"
+}]},
+{
+  "pollutant" : "PM10",
+  "metric" : "Daily average",
+  "indexes" : [
+  {
+    "wording" : "Unavailable",
+    "interval" : [0,0],
+    "text" : "black",
+    "color" : "#DDDDDD"
+  },{
+    "wording" : "Good",
+    "interval" : [0,20],
+    "text" : "black",
+    "color" : "#50F0E6"
+  },{
+    "wording" : "Medium",
+    "interval" : [21,40],
+    "text" : "black",
+    "color" : "#50CCAA"
+  },{
+    "wording" : "Degraded",
+    "interval" : [41,50],
+    "text" : "black",
+    "color" : "#F0E641"
+  },{
+    "wording" : "Bad",
+    "interval" : [51,100],
+    "text" : "black",
+    "color" : "#FF5050"
+  },{
+    "wording" : "Very bad",
+    "interval" : [101,150],
+    "text" : "white",
+    "color" : "#960032"
+  },{
+    "wording" : "Extremely bad",
+    "interval" : [9999,150],
+    "text" : "white",
+    "color" : "#872181"
+},{
+    "wording" : "Event",
+    "interval" : [0,0],
+    "text" : "white,
+    "color" : "#888888"
+}]},
+{
+  "pollutant" : "NO2",
+  "metric" : "Max hourly daily",
+  "indexes" : [
+  {
+    "wording" : "Unavailable",
+    "interval" : [0,0],
+    "text" : "black",
+    "color" : "#DDDDDD"
+  },{
+    "wording" : "Good",
+    "interval" : [0,40],
+    "text" : "black",
+    "color" : "#50F0E6"
+  },{
+    "wording" : "Medium",
+    "interval" : [41,90],
+    "text" : "black",
+    "color" : "#50CCAA"
+  },{
+    "wording" : "Degraded",
+    "interval" : [91,120],
+    "text" : "black",
+    "color" : "#F0E641"
+  },{
+    "wording" : "Bad",
+    "interval" : [121,230],
+    "text" : "black",
+    "color" : "#FF5050"
+  },{
+    "wording" : "Very bad",
+    "interval" : [231,340],
+    "text" : "white",
+    "color" : "#960032"
+  },{
+    "wording" : "Extremely bad",
+    "interval" : [9999,340],
+    "text" : "white",
+    "color" : "#872181"
+},{
+    "wording" : "Event",
+    "interval" : [0,0],
+    "text" : "white,
+    "color" : "#888888"
+}]},
+{
+  "pollutant" : "O3",
+  "metric" : "Max hourly daily",
+  "indexes" : [
+  {
+    "wording" : "Unavailable",
+    "interval" : [0,0],
+    "text" : "black",
+    "color" : "#DDDDDD"
+  },{
+    "wording" : "Good",
+    "interval" : [0,50],
+    "text" : "black",
+    "color" : "#50F0E6"
+  },{
+    "wording" : "Medium",
+    "interval" : [51,100],
+    "text" : "black",
+    "color" : "#50CCAA"
+  },{
+    "wording" : "Degraded",
+    "interval" : [101,130],
+    "text" : "black",
+    "color" : "#F0E641"
+  },{
+    "wording" : "Bad",
+    "interval" : [131,240],
+    "text" : "black",
+    "color" : "#FF5050"
+  },{
+    "wording" : "Very bad",
+    "interval" : [241,380],
+    "text" : "white",
+    "color" : "#960032"
+  },{
+    "wording" : "Extremely bad",
+    "interval" : [9999,380],
+    "text" : "white",
+    "color" : "#872181"
+  },{
+    "wording" : "Event",
+    "interval" : [0,0],
+    "text" : "white,
+    "color" : "#888888"
+}]},
+{
+  "pollutant" : "SO2",
+  "metric" : "Max hourly daily",
+  "indexes" : [
+  {
+    "wording" : "Unavailable",
+    "interval" : [0,0],
+    "text" : "black",
+    "color" : "#DDDDDD"
+  },{
+    "wording" : "Good",
+    "interval" : [0,100],
+    "text" : "black",
+    "color" : "#50F0E6"
+  },{
+    "wording" : "Medium",
+    "interval" : [101,200],
+    "text" : "black",
+    "color" : "#50CCAA"
+  },{
+    "wording" : "Degraded",
+    "interval" : [201,350],
+    "text" : "black",
+    "color" : "#F0E641"
+  },{
+    "wording" : "Bad",
+    "interval" : [351,500],
+    "text" : "black",
+    "color" : "#FF5050"
+  },{
+    "wording" : "Very bad",
+    "interval" : [501,750],
+    "text" : "white",
+    "color" : "#960032"
+  },{
+    "wording" : "Extremely bad",
+    "interval" : [9999,750],
+    "text" : "white",
+    "color" : "#872181"
+},{
+    "wording" : "Event",
+    "interval" : [0,0],
+    "text" : "white,
+    "color" : "#888888"
+}
+}]}]

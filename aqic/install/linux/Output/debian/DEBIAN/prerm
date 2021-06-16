@@ -1,0 +1,8 @@
+if [ -f /opt/aqic/aqic.run ]
+then
+echo "--------------> Remove local data"
+rm -R -d /home/*/.local/share/aqic
+echo "--------------> Remove data cache"
+rm -R -d /home/*/.cache/aqic /home/*/.cache/QtLocation
+fi
+exit 0

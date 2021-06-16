@@ -1,0 +1,6 @@
+if [ -f /usr/share/applications/aqic.desktop ]
+then
+echo "--------------> Remove application entry (aqic.desktop)."
+rm /usr/share/applications/aqic.desktop;
+fi
+exit 0

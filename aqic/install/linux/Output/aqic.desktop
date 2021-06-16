@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Version=0.0.0 
+Name=Aqic
+Name[fr]=Aqic
+Name[fr_FR]=Aqic
+GenericName=Air quality index
+GenericName[fr]=Indice qualité de l'air
+GenericName[fr_FR]=Indice qualité de l'air
+Comment=Aggregator of air quality index
+Comment[fr]=Agrégateur indice qualité de l'air
+Comment[fr_FR]=Agrégateur indice qualité de l'air
+Keywords=air quality index;aggregator
+Keywords[fr]=indice qualité de l'air;agrégateur
+Keywords[f_FR]=indice qualité de l'air;agrégateur
+Exec=sh -c /opt/aqic/aqic.run -nomessage
+Icon=/opt/aqic/aqic.png
+Terminal=false
+Categories=Utility

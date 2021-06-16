@@ -1,0 +1,10 @@
+*.pro.user
+*.bak
+*.deb
+*.zip
+*.dmg
+*.rpm
+aqic/install/linux/Output/debian/opt/*.*
+aqic/install/windows/Is-Installer/*.exe
+aqic/aqic/config/*.7z
+

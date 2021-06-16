@@ -1,0 +1,136 @@
+﻿[{
+  "name": "Auvergne - Rhône-Aples",
+  "code": "84",
+  "provider": "<a href=\"http://data-atmoaura.opendata.arcgis.com/\">Source Atmo Auvergne-Rhône-Alpes</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://opendata.arcgis.com/datasets/813d359d4e7e4705af45a6f28294cad9_0.csv"
+  }},{
+  "name": "Île de France",
+  "code": "11",
+  "provider": "<a href=\"https://data-airparif-asso.opendata.arcgis.com/\">Source Airparif</a>",
+  "airquality": {
+     "update": 14,
+     "url": "http://magellan.airparif.asso.fr:80/geoserver/DIDON/wfs?request=GetFeature&service=WFS&version=2.0.0&typeName=indice_atmo_2020&outputFormat=CSV"
+  }},{
+  "name": "Nouvelle aquitaine",
+  "code": "75",
+  "provider": "<a href=\"https://opendata.atmo-na.org/\">Source Atmo Nouvelle Aquitaine</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://opendata.atmo-na.org/geoserver/ind_nouvelle_aquitaine/wfs?request=GetFeature&service=WFS&version=2.0.0&typeName=ind_nouvelle_aquitaine&outputFormat=CSV"
+  }},{
+  "name": "Occitanie",
+  "code": "76",
+  "provider": "<a href=\"http://data-atmo-occitanie.opendata.arcgis.com/\">Source Atmo Occitanie</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://opendata.arcgis.com/datasets/9b907eb44e8c4212ac3e159e05f2696a_0.csv"
+  }},{
+  "name": "Provence-Alpes-Cote d'Azur",
+  "code": "93",
+  "provider": "<a href=\"https://opendata.atmosud.org/\">Source AtmoSud</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://geoservices.atmosud.org/geoserver/ind_sudpaca/wfs?service=WFS&version=2.0.0&request=GetFeature&typeName=ind_sudpaca:ind_sudpaca&srsName=EPSG:4326&outputFormat=csv"
+  }},{
+  "name": "Centre-Val de Loire",
+  "code": "24",
+  "provider": "<a href=\"https://data-ligair.opendata.arcgis.com/\">Source Lig'Air</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://opendata.arcgis.com/datasets/80f55f05c67e4ab6a098d6f1a416f75b_0.csv"
+  }},{
+  "name": "Normandie",
+  "code": "28",
+  "provider": "<a href=\"https://api.atmonormandie.fr/\">Source Atmo Normandie</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://api.atmonormandie.fr/index.php/lizmap/service/?repository=dindice&project=flux_indice_atmo_normandie&request=GetFeature&service=WFS&version=1.3.0&typeName=ind_normandie_3jours&outputFormat=CSV",
+    "urlyear": "https://api.atmonormandie.fr/index.php/lizmap/service/?repository=dindice&project=flux_indice_atmo_normandie&request=GetFeature&service=WFS&version=1.3.0&typeName=ind_normandie&outputFormat=CSV"
+  }},{
+  "name": "Grand Est",
+  "code": "44",
+  "provider": "<a href=\"https://data-atmograndest.opendata.arcgis.com/\">Source ATMO Grand Est OpenData</a>",
+    "update": 14,
+   "airquality": {
+     "url": "https://dservices3.arcgis.com/Is0UwT37raQYl9Jj/arcgis/services/ind_grandest/WFSServer?request=GetFeature&service=WFS&version=2.0.0&typeName=ind_grandest:ind_grandest&outputFormat=CSV"
+  }},{
+  "name": "Hauts de France",
+  "code": "32",
+  "provider": "<a href=\"http://data-atmo-hdf.opendata.arcgis.com/\">Source Atmo Hauts-de-France</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://opendata.arcgis.com/datasets/be4253b44c1549c79d4dae9b7890d520_0.csv"
+  }},{
+  "name": "Corse",
+  "code": "94",
+  "provider": "<a href=\"https://data-qualitaircorse.opendata.arcgis.com/\">Source Qualitair Corse</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://opendata.arcgis.com/datasets/86dd750ae1354e46b29f301fc6a99841_0.csv"
+ }},{
+  "name": "Réunion",
+  "code": "04",
+  "provider": "<a href=\"https://data-atmoreunion.opendata.arcgis.com/\">Source Open data d'Atmo Réunion</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://opendata.arcgis.com/datasets/55972cfeb9224a25b3bfd2f57fb36647_0.csv"
+ }},{
+  "name": "Guyanne",
+  "code": "03",
+  "provider": "<a href=\"https://data-atmo-guyane.opendata.arcgis.com/\">Source Atmo Guyane</a>",
+  "airquality": {
+    "update": 14,
+	"url": "",
+    "#url": "https://dservices8.arcgis.com/5JImMrIjAqUJnR3H/arcgis/services/ind_guyane_agglo/WFSServer?service=wfs&version=2.0.0&request=GetFeature&typeName=ind_guyane_agglo:ind_guyane_agglo&outputFormat=CSV"
+ }},{
+  "name": "Mayotte",
+  "code": "06",
+  "provider": "<a href=\"https://hub.arcgis.com/search?q=mayotte\">Source Hub Arcgis Mayotte</a>",
+ "airquality": {
+    "update": 14,
+    "url": ""
+ }},{
+  "name": "Guadeloupe",
+  "code": "01",
+  "provider": "<a href=\"http://data-gwadair.opendata.arcgis.com/\">Source GWAD'AIR</a>",
+ "airquality": {
+    "update": 14,
+    "url": "https://dservices8.arcgis.com/7RrxpwWeFIQ8JGGp/arcgis/services/ind_guadeloupe/WFSServer?service=wfs&version=2.0.0&request=GetFeature&typeName=ind_guadeloupe:ind_guadeloupe&outputFormat=CSV"
+ }},{
+  "name": "Martinique",
+  "code": "02",
+  "provider": "<a href=\"http://data-madininair.opendata.arcgis.com/\">Source Madininair</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://opendata.arcgis.com/datasets/981426e6cbfd40f48ec339df39d9065b_0.csv"
+ }},{
+  "name": "Nouvelle Calédonie",
+  "code": "99",
+  "provider": "<a href=\"https://www.scalair.nc\">Source Scal Air</a>",
+ "airquality": {
+    "update": 14,
+    "url": ""
+ }},{
+  "name": "Bretagne",
+  "code": "53",
+  "provider": "<a href=\"http://data.airbreizh.asso.fr/\">Source open-data Air Breizh</a>",
+ "airquality": {
+    "update": 14,
+    "url": "https://data.airbreizh.asso.fr/geoserver/ind_bretagne/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=ind_bretagne:ind_bretagne&outputFormat=csv"
+ }},{
+  "name": "Pays de la Loire",
+  "code": "52",
+  "provider": "<a href=\"https://data.airpl.org/\">Source Data Air Pays de la Loire</a>",
+ "airquality": {
+    "update": 14,
+    "url": "https://data.airpl.org/geoserver/ind_pays_de_la_loire/wfs?request=GetFeature&service=WFS&version=1.1.0&typeName=ind_pays_de_la_loire:ind_pays_de_la_loire&outputFormat=csv"
+ }},{
+  "name": "Bourgogne Franche Comté",
+  "code": "27",
+  "provider": "<a href=\"https://www.atmo-bfc.org/opendata\">Source Atmo Bourgogne-Franche-Comté</a>",
+  "airquality": {
+    "update": 14,
+    "url": "https://atmo-bfc.iad-informatique.com/geoserver/indice/wfs?request=GetFeature&service=WFS&version=1.1.0&typeName=indice:ind_bfc&outputFormat=csv"
+}}]

@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/player_backward.png</file>
+        <file>icons/player_forward.png</file>
+        <file>icons/player_pause.png</file>
+        <file>icons/player_play.png</file>
+        <file>icons/waitwidget_0.png</file>
+        <file>icons/waitwidget_1.png</file>
+        <file>icons/waitwidget_2.png</file>
+        <file>icons/waitwidget_3.png</file>
+        <file>icons/waitwidget_4.png</file>
+        <file>icons/waitwidget_5.png</file>
+        <file>icons/max.png</file>
+        <file>icons/xbar.png</file>
+        <file>icons/chartnext.png</file>
+        <file>icons/chartprev.png</file>
+        <file>icons/amm.png</file>
+        <file>icons/ha.png</file>
+        <file>icons/hm.png</file>
+        <file>icons/la.png</file>
+        <file>icons/lm.png</file>
+    </qresource>
+</RCC>
