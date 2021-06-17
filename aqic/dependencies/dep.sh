@@ -1,4 +1,4 @@
-﻿echo "Copy dependencies"
+echo "Copy dependencies"
 if [ ! -d "$2/config" ]
 then
 mkdir $2/config
