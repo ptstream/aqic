@@ -43,9 +43,4 @@ Bien entendu, ces binaires sont issus de la version stable et peuvent ne pas cor
 
 **Contact**
 Vous pouvez me contacter directement à **aivctrl@yahoo.com**
-  
-
-
-
- 
 
