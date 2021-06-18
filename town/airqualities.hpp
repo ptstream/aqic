@@ -10,7 +10,7 @@ class CTownCodes;
 
 using TTAQs = QHash<QString, CAirQuality>;
 
-/*! \brieg This is the container of air quality.*/
+/*! \brieg This is the container of air qualities. */
 class CAirQualities : public QVector<CAirQuality>, public CGlobalInstance<CAirQualities>
 {
 public:

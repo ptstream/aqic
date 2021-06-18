@@ -9,7 +9,10 @@ class CStringManip
 public:
  enum EConversion { NoConversion, Upper, Lower };
 
- /*! Returns s without diacritics. */
+ /*! Returns s without diacritics.
+  *  \param s: the input string.
+  *  \param conv: To convert in upper or lower cases or keep case.
+  */
  static QString removeDiacritics (QString s, EConversion conv = NoConversion);
 };
 

@@ -4,7 +4,7 @@
 #include <QList>
 class QTranslator;
 
-/*! \brief Tool to install or reove translators.
+/*! \brief Tool to install or remove translators.
  *
  *  The qm files are searched in install folder.
  */
