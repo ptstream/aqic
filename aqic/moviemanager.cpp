@@ -32,13 +32,6 @@ void CMainWindow::movieUpdateFrame ()
   }
 }
 
-//void CMainWindow::movieUpdateBoundingCircle ()
-//{
-//  if (!m_movieData->isEmpty ())
-//  {
-//  }
-//}
-
 void CMainWindow::movieNextFrame ()
 {
   m_movieData->incFrameNumber ();
