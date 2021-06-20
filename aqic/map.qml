@@ -57,11 +57,12 @@ Item {
     function changeColors (colors) {
       var cItems = items.length
       for (var i = 0; i < cItems; ++i) {
-        if (colors[items[i].code] !== undefined) {
-          items[i].color = colors[items[i].code]
+        var item = items[i]
+        if (colors[item.code] !== undefined) {
+          item.color = colors[item.code]
         }
         else {
-          items[i].color = "#DDDDDD"
+          item.color = "#DDDDDD"
         }
       }
     }
