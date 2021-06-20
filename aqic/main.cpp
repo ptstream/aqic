@@ -2,7 +2,6 @@
 #include <QApplication>
 #include "../qtools/translators.hpp"
 #include "../qtools/applocations.hpp"
-#include "towntooltip.hpp"
 
 int main (int argc, char* argv[])
 {
