@@ -1,3 +1,12 @@
+version 1.0.2
+- Amélioration
+  * Documentation.
+  * Suppression des fichiers non encore utilisés.
+  * Linux.
+    . Ajout automatique des paquets Debian manquants.
+	. Test Debian 11 xfce.
+	. Test OpenSuse 15.3 Leap environnement bureau Gnome.
+
 version 1.0.1
 - Problèmes résolu  
   * Nouvelle Aquitaine: le téléchargement contient les communes et les EPCI ce qui entrainait une erreur sur les détails de la commune.

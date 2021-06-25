@@ -7,5 +7,6 @@ Installed-Size: 400000
 Architecture: all
 Maintainer: PTaravel
 Homepage: NA
+Pre-Depends: libxcb-xinerama0,libxcb-xkb1,libxkbcommon-x11-0,libxcb-image0,libxcb-keysyms1,libxcb-render-util0,libxcb-icccm4
 Description: Air quality index.
  An air quality index browser.

@@ -1,6 +1,6 @@
 #ifndef APPVERSION_HPP
 #define APPVERSION_HPP
 
-#define APPVERSION "1.0.1"
+#define APPVERSION "1.0.2"
 
 #endif // APPVERSION_HPP

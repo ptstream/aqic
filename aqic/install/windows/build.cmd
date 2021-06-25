@@ -1,7 +1,7 @@
 @echo off
 
 rem Product version.
-set APPVERSION=1.0.1
+set APPVERSION=1.0.2
 
 rem Qt installation folder where find bin (Change to your Qt folder).
 set QT=D:\Qt\QT5152
@@ -45,7 +45,7 @@ copy ..\..\icons\%PRODUCT%_64.png %TARGET%\%PRODUCT%.png
 echo ************* config folder
 md %TARGET%\config 
 xcopy ..\..\config\*.* %TARGET%\config  /Y /I /S
-del %TARGET%\config\*.geojson
+rem del %TARGET%\config\*.geojson
 copy %BINARIES%\release\config\towns.bin %TARGET%
 
 echo ************* Translation
@@ -79,7 +79,6 @@ call chver "aqic.iss" %APPVERSION% "0.0.0"
 echo Cleanup
 rmdir %TARGET% /S /Q
 set PATH=%CURRENTPATH%
-move Is-Installer\*.exe ../../../installers
 
 :end
 

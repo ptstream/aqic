@@ -1,6 +1,6 @@
 echo "************ Start MacOS package creation *************"
 
-VERSION=1.0.1
+VERSION=1.0.2
 PRODUCT=aqic
 FOLDER=aqic
 QTDIR=/Users/$USER/Qt5152/5.15.2/clang_64
