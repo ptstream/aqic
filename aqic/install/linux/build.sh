@@ -10,7 +10,7 @@ FOLDER=aqic
 echo
 echo "********************** Build $PRODUCT *************************"
 
-VERSION=1.0.1
+VERSION=1.0.2
 QTVER=5.15.2
 QTDIR=/home/$USER/Qt/$QTVER/gcc_64
 if [ ! -d $DIR ]
@@ -85,7 +85,7 @@ cp ../../../languages/*_??.qm $TARGET/config
 
 echo Copy config files
 cp -r ../../config $TARGET
-rm $TARGET/config/*.geojson
+# rm $TARGET/config/*.geojson
 
 echo Copy .destktop file
 cp $OUTPUT/*.desktop $TARGET
