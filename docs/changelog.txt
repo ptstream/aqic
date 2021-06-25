@@ -4,8 +4,8 @@ version 1.0.2
   * Suppression des fichiers non encore utilisés.
   * Linux.
     . Ajout automatique des paquets Debian manquants.
-	. Test Debian 11 xfce.
-	. Test OpenSuse 15.3 Leap environnement bureau Gnome.
+	. Test Debian 11 Xfce, Cinnamon.
+	. Test OpenSuse 15.3 Leap Gnome.
 
 version 1.0.1
 - Problèmes résolu  
